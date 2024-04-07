@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(28, 28, 29);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;   
+    background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExem01YzJwczIwbXpqdXNzbXVvMnBreml5MXoxeWw2bTE3ZXc2YXVrYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/op58KTgUYZ8QlHFpS2/giphy.gif');
+    background-size: 400px;
+    background-position: right;
+    background-repeat: no-repeat; /* prevent repeating the image */
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+h1 {
+    background-color: #737373; /* grey */
+    color: white; /* text color */
+    padding: 20px 10px; /* adjust padding as needed (top/bottom, left/right) */
+    text-align: center; /* center align the text */
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#pie-chart {
+    width: 300px; /* Set the width of the chart */
+    height: 300px; /* Set the height of the chart */
+    margin: 20px auto; /* Center the chart horizontally */
+    display: block;
+}
+  
+.input-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.input-section label{
+    font-weight: bold;
+    margin-right: 5px;
+    color: white;
+}
+.input-section input{
+    padding: 5px;
+    margin-right: 5px;
+}
+.input-section button{
+    padding: 5px 10px;
+    background-color: rgb(242, 73, 129);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.expenses-list{
+    margin: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+th{
+    background-color: rgb(95, 94, 94);
+    color:rgb(253, 253, 250)
+}
+tfoot td{
+    font-weight: bold;
+}
+.expenses-list button{
+    padding: 5px 10px;
+    top:0;
+    right:0;
+    background-color: rgb(242, 73, 129);
+    color: white;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;   
+}
+.delete-btn{
+    padding: 5px 10px;
+    left:0;
+    background-color: rgb(198, 69, 69);
+    color: white;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+
+
